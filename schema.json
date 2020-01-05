@@ -1,0 +1,128 @@
+{
+ "content": [
+  {
+   "title": "Subjects",
+   "path": "subjects",
+   "content": [
+    {
+     "title": "Coding Fundamentals",
+     "path": "coding-fundamentals",
+     "desc": "concepts that are fundamental to learning how to code",
+     "content": [
+      {
+       "title": "Algorithmic Complexity",
+       "path": "algorithmic-complexity",
+       "desc": "fundamental concept of algorithms that can be used to study and compare different algorithms",
+       "content": [
+        {
+         "link": "",
+         "title": "What is Algorithmic Complexity?",
+         "path": "what-is-algorithmic-complexity",
+         "desc": "Here, we discover the idea of algorithmic complexity and how to calculate it. We also explore why it's important to know this and how it can help us.",
+         "length": -1,
+         "published": "",
+         "tags": [
+          "fundamentals",
+          "algorithmic-complexity"
+         ],
+         "reqs": [
+          "algorithmic-complexity-examples",
+          "data-structures"
+         ],
+         "preqs": []
+        },
+        {
+         "link": "",
+         "title": "Algorithmic Complexity Examples",
+         "path": "algorithmic-complexity-examples",
+         "desc": "We'll go through some examples of how we calculate time and space complexities",
+         "length": -1,
+         "published": "",
+         "tags": [
+          "fundamentals",
+          "algorithmic-complexity"
+         ],
+         "reqs": [
+          "algorithmic-complexity-examples"
+         ],
+         "preqs": [
+          "what-is-algorithmic-complexity"
+         ]
+        }
+       ]
+      },
+      {
+       "title": "Data Structures",
+       "path": "data-structures",
+       "desc": "fundamental concept of algorithms that can be used to study and compare different algorithms",
+       "content": [
+        {
+         "title": "Linked Lists",
+         "path": "linked-lists",
+         "theory": {
+          "link": "",
+          "title": "Linked List Concepts",
+          "desc": "Linked Lists are, arguably, the simpler data structures compared to the others. I'll explore the concepts, time-complexities, and some pseudo-code of this data structure",
+          "length": -1,
+          "published": "",
+          "tags": [
+           "fundamentals",
+           "data-structures"
+          ],
+          "reqs": [
+           "what-is-algorithmic-complexity"
+          ],
+          "preqs": []
+         },
+         "implementation": {
+          "cpp": "",
+          "java": "",
+          "javascript": ""
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Web Development",
+     "path": "web-dev",
+     "desc": "development of applications/programs for the internet",
+     "content": [
+      {
+       "title": "Intro to Web Dev",
+       "path": "intro-to-web-dev",
+       "desc": "Background information on web development and a simplified explanation of the internet's infrastructure.",
+       "content": []
+      },
+      {
+       "title": "Vanilla Web Development",
+       "path": "vanilla",
+       "desc": "web dev without using any fancy frameworks or extra fluff. This is web development with pure HTML/CSS/JS and is what all other web frameworks eventually compile to. Knowing these fundamentals are extremely important. Similar to how we learn to swim in pools before we try scuba diving for the first time, we need to know vanilla web development before we develop with powerful frameworks.",
+       "content": [
+        {
+         "link": "",
+         "title": "Setting up the developer environment",
+         "path": "setup",
+         "desc": "We'll setup the dev environment to get us ready to learn how to develop applications for the web (websites/webapps)",
+         "length": -1,
+         "published": "",
+         "tags": [
+          "vanilla",
+          "web-dev"
+         ],
+         "reqs": [
+          "intro-to-web-dev"
+         ],
+         "preqs": [
+          ""
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
