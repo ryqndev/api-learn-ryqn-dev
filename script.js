@@ -4,6 +4,7 @@ const readAPISchema = () => {
     let rawdata = fs.readFileSync('schema.json');
     let apiRoutes = JSON.parse(rawdata);
     generateStaticAPI(apiRoutes);
+    generateTOC(apiRoutes);
 }
 
 const generateStaticAPI = (APIRoutes) => {
@@ -34,6 +35,10 @@ const buildFile = async ( content, path ) => {
         if (err) throw err;
     });
    
+}
+
+const generateTOC = (APIRoutes) => {
+    
 }
 
 readAPISchema();
