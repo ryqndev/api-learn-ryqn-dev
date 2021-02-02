@@ -1,0 +1,33 @@
+{
+	"content": [
+		{
+			"title": "Subjects",
+			"path": "subjects",
+			"content": [
+				{
+					"title": "Web Development",
+					"author": "Ryan Yang",
+					"path": "web-dev",
+					"desc": "development of applications/programs for the internet",
+					"content": [
+						{
+							"type": "article",
+							"content-link": "making-a-theme-switcher",
+							"title": "Making a Theme Switcher",
+							"author": "Ryan Yang",
+							"path": "making-a-theme-switcher",
+							"desc": "Dark mode is a feature on nearly every single major application. We'll explore how we can use css and javscript to toggle between themes.",
+							"published": "",
+							"tags": [
+								"vanilla",
+								"web-dev"
+							],
+							"reqs": [],
+							"preqs": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

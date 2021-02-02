@@ -1,13 +1,14 @@
 const fs = require('fs');
 
 const readAPISchema = () => {
-    let rawData = fs.readFileSync('../raw-data/api/schema.json');
+    let rawData = fs.readFileSync('./raw-data/api/prod-schema.json');
     let apiRoutes = JSON.parse(rawData);
     generateStaticAPI(apiRoutes);
 }
 
 const generateStaticAPI = (APIRoutes) => {
     let path = '/static';
+    fs.rmdirSync('.' + path, { recursive: true });
     buildFolder( APIRoutes, path );
 }
 
