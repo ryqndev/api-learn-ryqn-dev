@@ -80,7 +80,7 @@ hr {
 }
 ```
 
-```js script.js
+```javascript script.js
 // our javascript is empty.... for now!
 ```
 
@@ -164,7 +164,7 @@ Notice, we simply replaced the value of the CSS style with the variable name. We
 
 Great! Once we have our CSS Variables set up, we can go ahead and dynamically change the values of our CSS properties whenever we want. How do we do that? Take a look at this Javascript code:
 
-```js script.js
+```javascript script.js
 function changeToDarkMode(){
     document.documentElement.style.setProperty('--background', "#151515");
     document.documentElement.style.setProperty('--card-background', "#15171A");
