@@ -368,4 +368,8 @@ hr {
     transition: background-color 500ms;
 }
 ```
+
+Which results in this:
+
 ![Final Demo](./assets/dark_mode_toggle_final.gif)
+
