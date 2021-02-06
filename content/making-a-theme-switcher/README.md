@@ -250,7 +250,7 @@ hr {
     background-color: var(--card-background);
 }
 ```
-```js script.js
+```javascript script.js
 function changeToDarkMode(){
     document.documentElement.style.setProperty('--background', "#151515");
     document.documentElement.style.setProperty('--card-background', "#15171A");
@@ -268,7 +268,7 @@ Great! So we can turn our website into dark mode with the press of a button... b
 
 First, we're going to need *another* variable - only this time it'll be in javascript - that can keep track of what mode we are in so we know what mode we'll be toggling into.
 
-```js script.js
+```javascript script.js
 let darkTheme = false;
 
 function toggleTheme(){
@@ -294,7 +294,7 @@ function toggleTheme(){
 
 When our user toggles a theme and leaves the website, we should keep track of their preference so that the next time they visit the site, they won't have to toggle again. Here, we can use the built in [LocalStorage]('https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage') object to help us save data in the browser in between sessions (persistent storage).
 
-```js script.js
+```javascript script.js
 // the ?? operator is called the nullish-coalescing operator which allows us to 
 // set a default value in case a localstorage value is not found
 let darkTheme = JSON.parse(localStorage.getItem('theme')) ?? false;
@@ -362,7 +362,7 @@ hr {
     border-radius: 4px;
     box-shadow: 0 0 5px black;
     background-color: var(--card-background);
-    
+
     /* When background-color changes, transition a 500 
     millisecond animation between the 2 values */
     transition: background-color 500ms;
