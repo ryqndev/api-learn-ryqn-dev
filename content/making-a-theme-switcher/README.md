@@ -84,7 +84,8 @@ hr {
 ```javascript script.js
 // our javascript is empty.... for now!
 ```
-
+When we test this code in the browser, we get something that looks like this:
+![Light mode look]('./assets/light_mode.png')
 
 #### Dark mode styles
 
@@ -103,6 +104,10 @@ body {
     background-color: #15171A;
 }
 ```
+Swapping these styles will result in something that looks like this:
+
+![Dark Mode Image]('./assets/dark_mode.png')
+
 
 ## CSS Variables
 
