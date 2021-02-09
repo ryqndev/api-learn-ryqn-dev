@@ -2,7 +2,7 @@
 
 *Note: This is not a complete guide on dark mode, but rather a quickstart for new developers to get a theme setup up and running in a small codebase. For a more in-depth analysis regarding dark modes, you can check out [this](https://ryanfeigenbaum.com/dark-mode/) amazing article  written by Ryan Feigenbaum.*
 
-# Table of Contents
+## Table of Contents
 
 * [Intro](#intro)
 * [Why have a dark mode?](#why-have-a-dark-mode?)
