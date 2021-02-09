@@ -2,8 +2,28 @@
 
 *Note: This is not a complete guide on dark mode, but rather a quickstart for new developers to get a theme setup up and running in a small codebase. For a more in-depth analysis regarding dark modes, you can check out [this](https://ryanfeigenbaum.com/dark-mode/) amazing article  written by Ryan Feigenbaum.*
 
+# Table of Contents
+
+* [Intro](#intro)
+* [Why have a dark mode?](#why-have-a-dark-mode?)
+* [Implementing dark mode](#implementing-dark-mode)
+    1. [Starting code](#starting-code)
+    2. [Dark mode styles](#dark-mode-styles)
+* [CSS Variables](#css-variables)
+    1. [Applying CSS variables to our code](#applying-css-variables-to-our-code)
+    2. [Declaring CSS Variables](#declaring-css-variables)
+    3. [Using CSS Variables](#using-css-variables)
+* [Working with Javascript](#working-with-javascript)
+    1. [Dynamically changing our CSS Variables](#dynamically-changing-our-css-variables)
+    2. [Toggling](#toggling)
+    3. [Saving and loading themes](#saving-and-loading-themes)
+* [Finishing touches](#finishing-touches)
+    
+
+#### Intro
 
 For people who have used their phones/computer in the dark, dark mode is one of the most coveted features around. Before we dive into how we can create a dark mode and toggle it, let's first take a look at what dark mode is. Dark mode is a design concept that utilizes light colors (usually white or pastel-like colors) for text and icons contrasted with a dark background, as opposed to the usual dark colored text on a light background (like a book or print newspaper). 
+
 
 ## Why have a dark mode?
 
@@ -114,7 +134,7 @@ There are a couple ways to implement a dark mode but the way I'll be showing you
 
 [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) are essentially placeholders for values and you can update them with Javascript. They operate like variables in Javascript or any other programming language and when they get changed, the webpage will immediately respond and apply the new CSS styles, rerendering the webpage.
 
-## Applying CSS variables to our code
+#### Applying CSS variables to our code
 
 Since there are 3 things we want to toggle, we will only use 3 variables.
 
@@ -172,7 +192,7 @@ Notice, we simply replaced the value of the CSS style with the variable name. We
 
 ## Working with Javascript
 
-#### Dynamically changing our CSS Variable
+#### Dynamically changing our CSS Variables
 
 Let's recap what we've done so far. Instead of having hardcoded values in our CSS styles, we've now attached CSS variables to our styles and defined the *default* values in our `:root` selector. However, none of this gives us dark mode, nor does it allow us to toggle our styles yet. 
 
