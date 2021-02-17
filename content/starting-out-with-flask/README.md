@@ -54,7 +54,7 @@ Then, we need to install the Flask library itself to be able to use it. If you'r
 
 *Note: Make sure you download the library in the empty folder we just created. If you are familiar with using a virtual environment like `venv`, you can set that up first.*
 
-```bash terminal
+```shell terminal
 pip3 install flask
 ```
 
@@ -76,17 +76,17 @@ def index():
 
 With the base source code, we can finally run our program and so first, we'll let flask know that the starting point of our app is in our `app.py` file. To do this on mac, we type this command in the terminal:
 
-```bash terminal
+```shell terminal
 export FLASK_APP=app.py
 ```
 
 and finally, to start the program:
 
-```bash terminal
+```shell terminal
 flask run
 ```
 which will execute our code and display the following in the terminal:
-```bash terminal
+```shell terminal
 * Environment: production
 WARNING: This is a development server. Do not use it in a production deployment.
 Use a production WSGI server instead.
@@ -123,7 +123,7 @@ Line 7: Our function doesn't actually do anything here and will return a string 
 
 After we run the command `~$ flask run` in the terminal, we get the following:
 
-```bash terminal
+```shell terminal
 * Environment: production
 WARNING: This is a development server. Do not use it in a production deployment.
 Use a production WSGI server instead.
