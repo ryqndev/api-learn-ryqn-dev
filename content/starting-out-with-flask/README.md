@@ -12,8 +12,8 @@
 * [Understanding what we just did](#understanding-what-we-just-did)
     1. [Analyzing our source code](#analyzing-our-source-code)
     2. [Analyzing our terminal](#analyzing-our-terminal)
-    3. [Testing our web server](#testing-our-webserver)
-* [Where do we go from here?](#where-to-go-from-here?)
+    3. [Testing our web server](#testing-our-web-server)
+* [Where do we go from here?](#where-do-we-go-from-here?)
     
 
 #### Intro
@@ -30,15 +30,15 @@ Webservers are extremely versatile and so there are many applications in which y
 
 Here are a couple things you can do with a web server:
 
-- REST API
-- Hosting assets
-- Serving websites
+• REST API
+• Hosting assets
+• Serving websites
 
 and here are a couple examples applications you could make:
 
-- Any dynamic website (especially one that connects to a database and requires user login)*
-- URL shortener service
-- Server that calls API's while keeping API keys secret
+• Any dynamic website (especially one that connects to a database and requires user login)*
+• URL shortener service
+• Server that calls API's while keeping API keys secret
 
 
 \* - depending on the use case, you could opt for a BaaS (Backend as a Service) like Firebase that can allow you to bypass the need for any backend server.
