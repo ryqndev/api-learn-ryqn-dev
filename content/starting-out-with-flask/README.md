@@ -16,7 +16,7 @@
 * [Where do we go from here?](#where-do-we-go-from-here?)
     
 
-#### Intro
+## Intro
 
 The internet is essentially a big network of interconnected computers. When we go on a website like `www.google.com`, for example, our computer connects to another computer and asks it for information. More specifically, our personal computer is connecting to a specific type of computer called a `server` owned by Google. This connection, known as an `http request`, will receive an `http response` from the server. In this case, the response will be an HTML file which our browser receives and then says, "Hey! I recognize HTML" and will render it for us to interact with. 
 
@@ -31,13 +31,17 @@ Webservers are extremely versatile and so there are many applications in which y
 Here are a couple things you can do with a web server:
 
 • REST API
+
 • Hosting assets
+
 • Serving websites
 
 and here are a couple examples applications you could make:
 
 • Any dynamic website (especially one that connects to a database and requires user login)*
+
 • URL shortener service
+
 • Server that calls API's while keeping API keys secret
 
 
