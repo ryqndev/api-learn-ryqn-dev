@@ -32,10 +32,15 @@ The HTTP request detailed above is known as a `GET` request. This is because we 
 Here are the most common HTTP request methods:
 
 • `GET` - recieves data. Most commonly used when accessing websites or making api calls
+
 • `POST` - updates data. An example is when a user updates their Facebook relationship status.
+
     • In this example, a user isn't getting data from a server, they're sending data to the Facebook servers and letting them know they are updating a data field
+
 • `CREATE` - creates data. An example is when a user is creating a new post on their blog, their computer will send a CREATE http request to the server.
+
 • `DELETE` - deletes data. Use when deleting data.
+
 • [Others](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) but likely won't need for the duration of a hackathon
 
 Every http request you make will be of one of these types - most commonly being `GET` requests. Although the type of method an HTTP request embodies is purely stylistic (you can write a server that only uses `GET` requests if you wanted to), the client must use the correct method. We will explore this concept later.
