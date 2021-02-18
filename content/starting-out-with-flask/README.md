@@ -22,7 +22,7 @@ The internet is essentially a big network of interconnected computers. When we g
 
 ## What is Flask?
 
-Flask is a library that allows you to run a server in Python. Similar to the Google example above, Flask allows us to run a program that sits on the internet waiting for other computers to connect to it, which we can then send back a response for every single request. However, HTML code is not the only thing a server can send back and requests are not limited to just "getting" information. You can take a look the API calls article to learn more about requests.
+Flask is a library that allows you to run a server in Python. Similar to the Google example above, Flask allows us to run a program that sits on the internet waiting for other computers to connect to it - i.e. make requests, which we can then send back a response. However, HTML code is not the only thing a server can send back and requests are not limited to just "getting" information. You can take a look the API calls article to learn more about requests.
 
 ## When should I use Flask?
 
@@ -30,7 +30,7 @@ Webservers are extremely versatile and so there are many applications in which y
 
 Here are a couple things you can do with a web server:
 
-• REST API
+• Setup a REST API
 
 • Hosting assets
 
